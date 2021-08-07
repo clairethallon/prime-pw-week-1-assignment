@@ -14,7 +14,7 @@
 
 # 4 - What is a quick way to create a new folder?
 	
-	touch
+	mkdir
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? 
 	
@@ -22,7 +22,7 @@
 
 	What about a folder containing files?
 	
-	the files listed out
+	the file names listed out
 
 # 6 - What is a quick way to create a new file?
 	
@@ -34,10 +34,12 @@
 
 # 8 - Why would you run the command 'git status'?
 	
-	to get the status of
+	to see if your previous changes to the file have been staged. 
 
 # 9 - What does the command 'git add .' do?
 	
-	Adds the working directory to the staging area
+	Adds the working directory to the staging area.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+
+	git push -u origin master
